@@ -1,0 +1,112 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.header-logo {
+  width: 150px;
+  height: 80px;
+}
+.main-title {
+  margin-top: 5%;
+}
+.title {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  font-size: 120px;
+  color: #24c0eb;
+}
+.description {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  color: #24c0eb;
+}
+.container-fluid {
+  height: 70px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-text {
+  width: 400px;
+  height: 60px;
+  border-radius: 2em;
+}
+.search-button {
+  border: 0;
+  margin-bottom: 20px;
+  background-color: rgba(28, 28, 28, 0);
+}
+.modal-window-wrapper {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-file {
+  margin-bottom: 20px;
+}
+.description-file {
+  font-weight: 200;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.description-name {
+  font-weight: 200;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.modal-download-file {
+  margin-bottom: 10px;
+}
+.modal-text {
+  margin-bottom: 10px;
+}
+
+.tags-header {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 300;
+}
