@@ -59,17 +59,13 @@
           <p class="title">Precis.io</p>
           <h2 class="description">Поиск конспектов</h2>
         </div>
+        <!-- SEARCH BAR -->
         <div class="container">
-          <form action="tags.html">
-            <input
-              type="text"
-              placeholder="Поиск"
-              name="search"
-              class="search-text"
-              
-            />
+          <form action="tags.html" class="container" autocomplete="off">
+            <div id="autocomplete-div" class="autocomplete-wrapper">
+              <input type="text" placeholder="Поиск" name="search" class="search-text"/>
+            </div>
             <button type="submit" class="search-button">
-              <img src="img/search.png" alt="search" class="img-button" />
             </button>
           </form>
         </div>
@@ -113,7 +109,6 @@
         </div>
       </div>
     </main>
-
- 
+    <script src="app.js"></script>
   </body>
 </html>
