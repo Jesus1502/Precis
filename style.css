@@ -106,8 +106,18 @@ img {
 .modal-text {
   margin-bottom: 10px;
 }
-/* Tags */
+.textarea-text{
+  font-weight: 200;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
 
+
+/* FOOTER */
+
+
+
+/* TAGS */
 
 .tags-header {
   margin-top: 30px;
@@ -123,3 +133,10 @@ img {
   font-size: 20px;
 
 }
+
+/* POST */
+
+.mgmt-description{
+font-size: 100px;
+}
+
