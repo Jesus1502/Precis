@@ -136,23 +136,27 @@ img {
 
 /* POST */
 
- #container{ 
+ #posts-container{ 
   margin-top:50px;
   display: block;
-  margin-left: 250px;
-  margin-right: 250px;
 }
 
-.mgmt-header{
- margin-bottom: 30px;
- text-align: center;
+.posts-header{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 300;
+  
 }
 .form-select{
   margin-bottom: 50px;
 }
-.img-container{
-  
+.content{
   display: flex;
   width: auto;
+ 
+  
+  
 }
-
