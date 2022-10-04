@@ -143,16 +143,34 @@ img {
   margin-right: 250px;
 }
 
-.mgmt-header{
- margin-bottom: 30px;
- text-align: center;
+.mgmt-description{
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight:300;
 }
-.form-select{
-  margin-bottom: 50px;
-}
-.img-container{
-  
+.img-content{
   display: flex;
-  width: auto;
+  margin: 5px;
+}
+.img-hover:hover{
+  border: 3px dotted #3a7999;
+	color: #3a7999;
+	background: rgba(0,0,0,0);
 }
 
+/* NAVIGATION */
+.alert-img{
+ 
+  width: 20px;
+  border: none;
+  background-color:none;
+}
+.alert-description{
+  text-align: center;
+}
+#header-button{
+  margin-right: 1300px;
+
+
+}
