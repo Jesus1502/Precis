@@ -164,7 +164,6 @@ ul {
 .alert-list{
   text-align: center;
 }
-.btn dropdown-toggle{
-  display: flex;
-  flex-wrap: wrap;
+#wrapper{
+  margin-right: 1300px;
 }
