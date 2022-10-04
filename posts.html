@@ -25,33 +25,43 @@
   </head>
   <body>
   <!-- HEAD -->
-    <header>
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
-            ><img src="img/logo.png" alt="precis-icon" class="header-logo"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link tags" aria-current="page" href="tags.html">Теги</a>
-              <a class="nav-link posts active" aria-current="page" href="posts.html">Все конспекты</a>
-            </div>
-            </div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/logo.png" alt="precis-icon" class="header-logo"
+        /></a>
+        <div class="dropdown">
+          <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+            <img src="img/alert.png" alt="alertimg" class="alert-img">
+          </a>
+          <ul class="dropdown-menu">
+            <p class="alert-list">
+              Нет уведомлений
+            </p>
+          </ul>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link tags" aria-current="page" href="tags.html">Теги</a>
+            <a class="nav-link post" aria-current="page" href="posts.html">Все конспекты</a>
+          </div>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
     <!-- MAIN CONTENT -->
     <main>
       <h2 class="posts-header">Все конспекты</h2>
@@ -69,7 +79,6 @@
         <a href="img/3-min.jpg"><img src="img/3-min.jpg" alt="img-1" class="img-wrapper"></a>
         <a href="img/4-min.jpg"><img src="img/4-min.jpg" alt="img-1" class="img-wrapper"></a>
       </div>
-
     </main>
   </body>
 </html>

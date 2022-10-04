@@ -146,23 +146,25 @@ ul {
   flex-wrap: wrap;
   border-radius: 5%;
   border:  10px solid #24c0eb;
- 
-  
- 
- 
-  
-
-  
 }
 .img-wrapper{
   margin: 5px;
   width: 300px;
   transition: 0.5s;
   border-radius: 10%;
-  
-
 }
 .img-wrapper:hover{
   transform: scale(1.2);
 }
-  
+
+/* Header */
+.alert-img{
+  width: 20px;
+}
+.alert-list{
+  text-align: center;
+}
+.btn dropdown-toggle{
+  display: flex;
+  flex-wrap: wrap;
+}
