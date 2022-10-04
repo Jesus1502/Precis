@@ -130,32 +130,39 @@ ul {
 }
 
 /* POST */
- *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 .posts-header{
- margin-top: 30px;
- margin-bottom: 30px;
+  margin-top: 35px;
+  margin-bottom: 30px;
   font-size: 30px;
   text-align: center;
   font-family: Roboto;
   font-weight: 300;
 }
 
-.post-wrapper{
-  max-width: max-content;
+#content{
+  justify-content: center;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 5%;
+  border:  10px solid #24c0eb;
+ 
+  
+ 
+ 
+  
+
+  
 }
-.post-wrapper .posts{
+.img-wrapper{
+  margin: 5px;
+  width: 300px;
+  transition: 0.5s;
+  border-radius: 10%;
+  
 
 }
-.post-wrapper .posts img {
-  width: 100%;
-  height: 100%;
- 
+.img-wrapper:hover{
+  transform: scale(1.2);
 }
   
