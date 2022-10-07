@@ -33,51 +33,59 @@ ul {
   list-style: none;
 }
 
-/* Main */
-
+/* Main styles start*/
 
 .header-logo {
   width: 150px;
-  height: 80px;
+  height: 60px;
 }
-.main-title {
-  margin-top: 5%;
+.header-logo:hover{
+  background: rgba(0,0,0,0.2)
 }
 .title {
   display: block;
+  padding-top:30px;
   text-align: center;
   font-weight: 400;
-  font-size: 120px;
+  font-size: 130px;
   color: #24c0eb;
 }
-.description {
+.main-description {
   margin-bottom: 20px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 30px;
   color: #24c0eb;
 }
-.container-fluid {
-  height: 70px;
-}
-.container {
+.search-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.precis-girl-wrapper{
+margin-bottom: 20px;
+}
+.precis-girl-img{
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .search-text {
-  width: 400px;
+  min-width: 400px;
   height: 60px;
   border-radius: 2em;
 }
+#download-button{
+  width: 200px;
+}
 .search-button {
   border: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-color: rgba(28, 28, 28, 0);
 }
 .modal-window-wrapper {
   margin-top: 20px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,12 +115,10 @@ ul {
   font-size: 13px;
 }
 
-
-/* FOOTER */
-
+/* Main styles end */
 
 
-/* TAGS */
+/* Tags page styles start */
 
 .tags-header {
   margin-top: 30px;
@@ -144,8 +150,9 @@ ul {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  border-radius: 5%;
-  border:  10px solid #24c0eb;
+  border-radius: 50px;
+  border: 6px solid #24c0eb;
+  background-color: #acedff;
 }
 .img-wrapper{
   margin: 5px;
@@ -156,14 +163,5 @@ ul {
 .img-wrapper:hover{
   transform: scale(1.2);
 }
+/* Text page styles end */
 
-/* Header */
-.alert-img{
-  width: 20px;
-}
-.alert-list{
-  text-align: center;
-}
-#wrapper{
-  margin-right: 1300px;
-}
